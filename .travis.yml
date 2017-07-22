@@ -37,3 +37,7 @@ addons:
 script:
   - npm install
   - npm run lint
+deploy:
+  provider: surge
+  project: ./public/
+  domain: thorium.ralexanderson.com
