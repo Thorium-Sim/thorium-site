@@ -11,7 +11,7 @@ description: "Update for the week of July 23 - July 29 2017"
 * Completed the probe network card and core.
 * Completed the self-destruct card and core.
 * Completed the probe control card and core.
-* Completed the reactor card. The core still needs to be made.
+* Completed the reactor card and core.
 
 As a reminder, I'm starting a WebDev Guild. There is an advancement guide available on the [GitHub Repo](https://github.com/alexanderson1993/webdev-guild).
 
