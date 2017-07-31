@@ -1,0 +1,23 @@
+---
+title: "Update 5"
+author: "Alex Anderson"
+date: "2017-07-07T06:00:00.000Z"
+layout: post
+path: "/update-5/"
+category: "Updates"
+description: "Update for the week of July 2 - July 7 2017"
+---
+
+* Major refactor of the control room system
+    - Removed the top tab-bar for the 'control room' screen.
+    - Refactored and completed the simulator config for pre-defining template simulators with stations, cards, systems, decks, etc.
+    - Refactored the flight initiation process to simplify it.
+    - Simplified the initial landing page.
+* Implemented 'Sets', or pre-defined simulator client configurations.
+    - This makes it possible to automatically start up all of the stations on the screens which they are supposed to be on for the flight.
+* Implemented an 'Alert Condition' card
+* Added icons for all currently developed cards.
+
+That's it for this week. Be sure to file any feature requests on the [Github repo](https://github.com/Thorium-Sim/thorium/issues). You can also download the latest [alpha](https://github.com/Thorium-Sim/thorium/releases) and see the current [roadmap](https://github.com/Thorium-Sim/thorium/projects/2).
+
+Alex
