@@ -2,6 +2,7 @@ import { h } from 'preact';
 import style from './style.scss';
 
 export default ({ className }) => (<aside className={className}>
-	<p className={style.description}>Student. Husband. Spaceship enthusiast.</p>
-	<p className={style.description}>I get my kicks building spaceship simulator control software with integration to hardware, lighting, sounds, video, etc. Fan of JavaScript and IoT.</p>
+	<p className={style.description}>Next generation starship simulator controls.</p>
+	<p className={style.description}>Made with ❤️ by Alex Anderson</p>
+	<p><small><em>Want to see your name here? <a href="https://github.com/thorium-sim/thorium">Contribute!</a></em></small></p>
 </aside>);
