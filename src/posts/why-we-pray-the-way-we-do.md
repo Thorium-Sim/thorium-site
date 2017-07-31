@@ -1,0 +1,18 @@
+---
+title: "Why we pray the way we do"
+author: "Alex Anderson"
+date: "2014-02-13T01:03:43.343Z"
+layout: post
+path: "/why-we-pray-the-way-we-do/"
+category: "Posts"
+---
+
+An interesting thing that I've learned in the past few weeks. But first, a story! I was in York a few months ago with Elder Ramos, a native Spanish speaker, but not necessarily a native pray-er. You see, he didn't join the church until about three years ago, so he never really technically learned how to pray. Of course, as a Spanish speaker, he didn't pray with "thee"s and "thine"s, but rather, the informal "tu" form of Spanish. Or rather, he should have. Instead, he used the formal "Usted" form. Not to be a smart-alec, but I had read Preach My Gospel in Spanish, and it told me the "Tu" form is correct. However, when I talked to him about it, he retorted "Well, in English, you use the formal words (referring to 'Thee'. etc.). It's no different in Spanish". I didn't have an answer for that.
+
+In April, 1993 (and, incidentally, quoted in the Missionary Handbook), Elder Dallin H. Oaks said: "The special language of prayer follows different forms in different languages, but the principle is always the same. We should address prayers to our Heavenly Father in words which speakers of that language associate with love and respect and reverence and closeness."
+
+As it turns out, I was right about "Tu" form, but not for the same reason I thought. In Spanish, you use Tu form only when you are speaking to someone very close to you - a family member, a close friend, that sort of thing. Rarely do you ever use it with an aquaintence. Missionaries are instructed to only use Usted form when speaking to anyone else, with the possible exception of their companions. Same goes for missionaries speaking English, although the custom is already so ingrained. You see, "You" is actually an incredibly formal pronoun. It's become incredibly commonplace that we use it for addressing anything in the second person, but regardless, in times past it not used to address those close to us; thou was used in those cases. A friend pointed it out to me: in Shakespeare's "Romeo and Juliet," the heroine begins the play by addressing her father with the more familiar thou form. However, as the play progresses, and her relationship with daddy gets more and more strained, the "you" form starts coming out. Interesting. To close, I'd love to include a bit of Wikipedia, just for the sheer fact that it uses the word "Yinz". It's on the word "thou".
+
+In standard modern English, thou continues to be used only in formal religious contexts, in literature that seeks to reproduce archaic language and in certain fixed phrases such as "holier than thou" and "fare thee well". For this reason, many associate the pronoun with solemnity or formality. Many dialects have compensated for the lack of a singular/plural distinction caused by the disappearance of thou and ye through the creation of new plural pronouns or pronominal constructions, such as you all, y'all, yinz, youse, you ens, you mob, you lot, your lot and you guys. These vary regionally and are usually restricted to colloquial speech.
+
+TL;DR: We often think "Thou" is a super formal word, but it's not. It is actually meant to be used in very familiar settings. That's why we pray using that word - it indicates extreme closeness and familiarity, like a child should have with the Father. Cheers!

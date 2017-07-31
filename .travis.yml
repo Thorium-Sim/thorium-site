@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "node"
+dist: trusty
+sudo: false
+script:
+  - yarnpkg build
+deploy:
+  provider: surge
+  project: ./build/
+  domain: ralexanderson.com
+  skip_cleanup: true
+
