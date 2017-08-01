@@ -7,6 +7,7 @@ script:
   - yarnpkg build
 deploy:
   provider: surge
-  project: ./public/
-  domain: thorium.ralexanderson.com
+  project: ./build/
+  domain: ralexanderson.com
   skip_cleanup: true
+
