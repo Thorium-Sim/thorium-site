@@ -94,6 +94,18 @@ $contribute: #dd6929;
   }
 }
 
+$about: #5F83B8;
+.about {
+  background-color: $about;
+  border-color: darken($about, 20%);
+  &:hover {
+    background-color: darken($about, 5%);
+  }
+  &:active {
+    background-color: darken($about, 15%);
+  }
+}
+
 .featureBlock {
   display: flex;
   flex-wrap: wrap;

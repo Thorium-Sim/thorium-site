@@ -1,6 +1,7 @@
 import { h } from "preact";
 import { Router } from "preact-router";
 import Posts from "async!./../routes/posts";
+import Download from "async!./../routes/download";
 import Post from "./post";
 import posts from "./../posts";
 import Front from "async!./front";
@@ -25,6 +26,7 @@ export default () => {
       <Router onChange={handleRoute}>
         <Front path="/" />
         <Posts path="/posts" />
+        <Download path="/download" />
         {posts.map(p => <Post {...p} path={`/posts${p.path}`} />)}
       </Router>
     </div>

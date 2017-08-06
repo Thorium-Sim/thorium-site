@@ -1,0 +1,27 @@
+section {
+  background: transparent;
+}
+.background {
+  background-image: url('/assets/background2.jpeg');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 1;
+}
+.container {
+  background: transparent;
+  max-width: 960px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10vh 0;
+  position: relative;
+  z-index: 2;
+  h1 {
+    margin: 0;
+    font-size: 50px;
+  }
+}

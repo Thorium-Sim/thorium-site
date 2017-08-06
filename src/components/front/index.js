@@ -3,6 +3,7 @@ import { Link } from "preact-router/match";
 import style from "./style.scss";
 import Nav from "../nav";
 var cardList = [
+
   "LongRangeComm",
   "EngineControl",
   "Navigation",
@@ -67,6 +68,14 @@ export default class Front extends Component {
           <h1>Thorium</h1>
           <h2>Next Generation Starship Simulator Controls</h2>
           <div>
+            <a
+              className={`${style.button} ${style.about}`}
+              href="#about"
+            >
+              About
+            </a>
+            </div>
+          <div>
             <Link
               className={`${style.button} ${style.donate}`}
               href="/download/"
@@ -81,7 +90,7 @@ export default class Front extends Component {
             </Link>
           </div>
         </div>
-        <section className={style.section}>
+        <section id="about" className={style.section}>
           <h2>A revolution in simulator controls</h2>
           <div className={style.featureBlock}>
             <div>
