@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[R. Alex Anderson]]></title><description><![CDATA[It is what it is]]></description><link>https://ralexanderson.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 07 Aug 2017 18:59:39 GMT</lastBuildDate><atom:link href="https://ralexanderson.com/assets/feed.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[2017 R. Alex Anderson]]></copyright><language><![CDATA[en]]></language><webMaster><![CDATA[R. Alex Anderson]]></webMaster><item><title><![CDATA[Update 9]]></title><description><![CDATA[<p>This week has been spent on a number of side project, including an exciting announcement (stay tuned!) so there weren&#39;t as much progress on Thorium. Regardless, there are a few updates:</p>
+<ul>
+<li>Bug fixes for:<ul>
+<li>Shields</li>
+<li>Navigation</li>
+<li>Core</li>
+<li>Thrusters</li>
+<li>Damage Teams</li>
+<li>Comm</li>
+<li>Power Distribution</li>
+<li>Probe Control</li>
+<li>Sensors</li>
+<li>Transporters</li>
+<li>Internal Scanning</li>
+</ul>
+</li>
+<li>Add Flow Typing for static type checking</li>
+<li>Add local fonts so Thorium can run 100% offline</li>
+</ul>
+<p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/update-9/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-9/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 05 Aug 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 8 - Little Space Robots and Boom Boom Sticks]]></title><description><![CDATA[<ul>
+<li>Completed the probe network card and core.</li>
+<li>Completed the self-destruct card and core.</li>
+<li>Completed the probe control card and core.</li>
+<li>Completed the reactor card and core.</li>
+</ul>
+<p>As a reminder, I&#39;m starting a WebDev Guild. There is an advancement guide available on the <a href="https://github.com/alexanderson1993/webdev-guild">GitHub Repo</a>.</p>
+<p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/update-8/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-8/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 29 Jul 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 7 - She has the gift]]></title><description><![CDATA[<ul>
+<li>Added sensor nudge buttons to move all contacts</li>
+<li>Added sensor yaw buttons to rotate contacts around the center</li>
+<li>Added the &#39;Ask For Speed&#39; dropdown when moving sensor contacts</li>
+<li>Added &#39;Sensor Ping&#39; which make sensors work like sonar. You can pick between &#39;Active&#39;, &#39;Passive&#39;, or &#39;Manual&#39; sensors and &#39;Ping&#39; to see what&#39;s on the grid.</li>
+<li>Added sensor scan presets</li>
+<li>Started working on the probe network card.</li>
+</ul>
+<p>As a reminder, I&#39;m starting a WebDev Guild. There is an advancement guide available on the <a href="https://github.com/alexanderson1993/webdev-guild">GitHub Repo</a>.</p>
+<p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/update-7/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-7/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 22 Jul 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 6 - Jester Tester]]></title><description><![CDATA[<ul>
+<li>Refactored the sensors system to use a DOM based rendering as opposed to a Canvas based or ThreeJS based rendering. It&#39;s more straightforward and seems to work just fine. The code for both of the other rendering methods is still in the repo, so it can be reused easily.</li>
+<li>Switched to using the Jest testing framework. It executes tests faster and provides more features than Mocha, which was being used before.</li>
+</ul>
+<p>As an extra note, I&#39;m starting a WebDev Guild. There is an advancement guide available on the <a href="https://github.com/alexanderson1993/webdev-guild">GitHub Repo</a>.</p>
+<p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/update-6/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-6/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 15 Jul 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 5 - Flight Deck Ready for Take-off]]></title><description><![CDATA[<ul>
+<li>Major refactor of the control room system<ul>
+<li>Removed the top tab-bar for the &#39;control room&#39; screen.</li>
+<li>Refactored and completed the simulator config for pre-defining template simulators with stations, cards, systems, decks, etc.</li>
+<li>Refactored the flight initiation process to simplify it.</li>
+<li>Simplified the initial landing page.</li>
+</ul>
+</li>
+<li>Implemented &#39;Sets&#39;, or pre-defined simulator client configurations.<ul>
+<li>This makes it possible to automatically start up all of the stations on the screens which they are supposed to be on for the flight.</li>
+</ul>
+</li>
+<li>Implemented an &#39;Alert Condition&#39; card</li>
+<li>Added icons for all currently developed cards.</li>
+</ul>
+<p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/update-5/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-5/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Fri, 07 Jul 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 4 - Big Guns and What to do if you get shot!]]></title><description><![CDATA[<ul>
+<li>Created a core component for managing and importing crew from CSV</li>
+<li>Created security teams card</li>
+<li>Created damage teams card</li>
+<li>Damage reports are now processed to replace hashed keys for parts, reactivation codes, etc.</li>
+<li>Added reactivation codes. It automatically shows the reactivation code input field if the report has a #REACTIVATIONCODE hash key.</li>
+</ul>
+<p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/update-4/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-4/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 01 Jul 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 3 - Scrambling the Alpha Matrix is Go]]></title><description><![CDATA[<ul>
+<li>Fixes for layout, decoding, sensors, assets, shields, sensor contacts, damage reports, and coolant.</li>
+<li>Added thruster required rotation for manual thrusters on core.</li>
+<li>Added Tractor beam card.</li>
+<li>Released Alpha 1.</li>
+<li>Completely rewrote the core layout engine. Instead of draggable boxes, I&#39;m using a grid layout engine with support for tabs. This should improve laying out core components.</li>
+</ul>
+<p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/update-3/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-3/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 24 Jun 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 2 - Stretchy Screens]]></title><description><![CDATA[<ul>
+<li>Finished the layout for 1024 wide layouts.</li>
+<li>Fixed layout for Thrusters, Docking, Sensors, Targeting, Short Range Comm, etc.</li>
+<li>Added tracking for which clients send mutations</li>
+<li>Added hover to the sensors station contacts</li>
+<li>Added ability to update contacts currently on the grid</li>
+</ul>
+<p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/update-2/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-2/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 17 Jun 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 1 - Chill out, man]]></title><description><![CDATA[<ul>
+<li>Added a coolant tank system and card</li>
+<li>Added coolant support for engines and phasers</li>
+<li>Revamped the sensors to make it more performant and consistent. Finished a minimal feature set.</li>
+<li>Added unit tests for half of the system classes</li>
+<li>Started on a frame for lower resolution screens.</li>
+</ul>
+<p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/update-1/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-1/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 10 Jun 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[One Year of Thorium]]></title><description><![CDATA[<p>Here&#39;s a rundown of the progress which has been made from June 2016 to June 2017.</p>
+<ul>
+<li>Set up the project with React, GraphQL, Webpack, Node, and a dependency pipeline</li>
+<li>Event sourcing system with snapshot engine</li>
+<li>Flight Management</li>
+<li>Template simulators</li>
+<li>Ability to run multiple flights simultaneously</li>
+<li>Ability to run multiple simulators in the same flight</li>
+<li>Station sets</li>
+<li>Client management, for controlling which computer has which station</li>
+<li>Dynamic core, with layout presets</li>
+<li>On-screen issue reporter</li>
+<li>Timeline &amp; Macro control system</li>
+<li>An asset management system</li>
+<li>Packaging into standalone app for server and client</li>
+<li>A widget system for overlay components</li>
+<li>Curve Layout (Special thanks to Todd Rasband for suppling the awesome design)</li>
+<li>Engine Control with support for any number of engines with a discrete number of speeds.</li>
+<li>Thrusters</li>
+<li>Course Calculation</li>
+<li>Sensor Scans</li>
+<li>Transporters</li>
+<li>Security decks</li>
+<li>Security scans</li>
+<li>Shield Control, with support for one, four, and 6 system shields</li>
+<li>Long Range Message Decoding</li>
+<li>Long Range Message Composing Widget</li>
+<li>Long Range Message Sending</li>
+<li>Internal Communication</li>
+<li>Short Range Communications</li>
+<li>Generic offline and blackout screens</li>
+<li>Docking Control</li>
+<li>Power Distribution</li>
+<li>Batteries</li>
+<li>Targeting</li>
+<li>Phaser Charging</li>
+<li>Torpedo Loading</li>
+<li>Probe Construction</li>
+<li>Stealth Field</li>
+<li>Cargo Control</li>
+<li>Remote Access Widget</li>
+<li>Calculator Widget</li>
+</ul>
+<p>There is a lot more to come. Expect weekly updates to this blog with the current status of Thorium, and file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/one-year/</link><guid isPermaLink="true">https://ralexanderson.com/posts/one-year/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 03 Jun 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[The Birth of Thorium]]></title><description><![CDATA[<figure>
+  <img src="/assets/posts/banner.png" alt="Banner" />
+</figure>
+
+<p>Thorium as a project began in June of 2016. After the partial failure of <a href="https://github.com/infinitedg/flint">Flint</a>, I wanted to develop a set of controls that I could be proud of. Flint had a pie-in-the-sky vision of what was possible. However, in the day-to-day development, that vision didn&#39;t translate well. Ultimately, due to lack of focus and poor developer experience, Flint fell by the wayside.</p>
+<p>After a few months of tinkering <a href="https://github.com/alexanderson1993/website-class">with</a> <a href="https://github.com/alexanderson1993/assassin">other</a> <a href="https://github.com/alexanderson1993/crowdfund">projects</a>, and with the encouragement of my brother, I decided the time finally came to start working on the next version of starship simulator controls. This version wouldn&#39;t reach too far... at first. Instead, it would build a platform for developing modular, future-proof controls with the latest web technologies. </p>
+<p>Since then, I&#39;ve been developing Thorium, with a goal to keep momentum by writing code at least once every day. This has been while I&#39;ve been employed part time and attending school full time. (Also, I started dating, got engaged, and got married all while Thorium has been under development).</p>
+<p>Keep following this blog for more details about where Thorium is now and where it is going. I hope you like what you see. Just know that the best is yet to come.</p>
+<p>Alex</p>
+<h3 id="technical-details">Technical Details</h3>
+<p>I was able to leverage what I learned from Flint to propel my development of Thorium. During the first few months of development, I had to decide several things:</p>
+<ul>
+<li>How should data be stored?</li>
+<li>How should state be managed between the client and the server?</li>
+<li>How should data be rendered on the client?</li>
+<li>Should I build it for one simulator, or for many simulators?</li>
+</ul>
+<p>Using web technologies was a no-brainer. The velocity and robustness of web development tools is staggering and jumping aboard was obvious. However, which of those tools to use was carefully considered. After playing around with Elixir and the Phoenix framework, I decided that I would write the server in Node.js. While Elixir would provide significant improvements to speed with concurrent processing and the ability to horizontally scale servers, the use case of simulators doesn&#39;t necessarily need the ability to process a million requests a second. Node.js gives familiarity and also convenience as the front-end and back-end are written with the same language.</p>
+<p>The front-end was created with React. The community support is unbeatable and the modular nature makes it possible to keep screens and controls separate while importing when necessary.</p>
+<p>GraphQL was a late addition to the mix, but a welcome one. It provides the simplest way of sending data to and from the client and server. With its self-documenting API, it&#39;s really easy to see all of the data you can get and send both ways, simplifying the development process substantially. When they released support for subscriptions, I was sold and jumped all in.</p>
+<p>The final piece was event sourcing. This is the idea that instead of storing the current state of the simulator, you store every event which brought the simulator to its current state. This has a few benefits:</p>
+<ul>
+<li>A rich stream of data allowing you to see exactly what happened at what point during the mission, which could be useful for analytics.</li>
+<li>The ability to rewind events to a point, effectively allowing you to rewind the experience by an arbitrary amount.</li>
+<li>A central event store can send and receive events from multiple servers, making it possible to expand the controls horizontally or though a mircoservice architecture. </li>
+</ul>
+]]></description><link>https://ralexanderson.com/posts/hello-word/</link><guid isPermaLink="true">https://ralexanderson.com/posts/hello-word/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Thu, 01 Jun 2017 06:00:00 GMT</pubDate></item></channel></rss>
