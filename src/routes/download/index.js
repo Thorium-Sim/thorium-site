@@ -1,7 +1,10 @@
 import { h, Component } from "preact";
 import style from "./style.scss";
 import Nav from "../../components/nav";
-import StripeCheckout from 'react-stripe-checkout';
+import StripeCheckout from "react-stripe-checkout";
+import InputRange from "react-input-range";
+import "react-input-range/lib/css/index.css";
+import CurrencyInput from "react-currency-input";
 
 export default () =>
   <section>
@@ -48,7 +51,7 @@ export default () =>
         <p>
           Use the donation form to find out your suggested donation based on
           your use-case, or fill in your own amount. Recurring donations are
-          also accepted!
+          also accepted and encouraged!
         </p>
       </main>
       <aside className={style.sidebar}>
@@ -62,92 +65,160 @@ export default () =>
 class DonationForm extends Component {
   state = {
     usage: "personal",
-    simulators: 1
+    simulators: 1,
+    payment: "once",
+    donation: 30
+  };
+  baseDonations = {
+    personal: 3000,
+    educational: 15000,
+    commercial: 200000
   };
   setUsage = evt => {
     this.setState({
-      usage: evt.target.value
+      usage: evt.target.value,
+      donation:
+        this.baseDonations[evt.target.value] *
+        this.state.simulators *
+        (this.state.payment === "multiple" ? 1 / 24 : 1) / 100
     });
   };
-  onToken = () => {
-
-  }
+  setSimulators = value => {
+    this.setState({
+      simulators: value,
+      donation:
+        this.baseDonations[this.state.usage] *
+        value *
+        (this.state.payment === "multiple" ? 1 / 24 : 1) / 100
+    });
+  };
+  setPayment = evt => {
+    this.setState({
+      payment: evt.target.value,
+      donation:
+        this.baseDonations[this.state.usage] *
+        this.state.simulators *
+        (evt.target.value === "multiple" ? 1 / 24 : 1) / 100
+    });
+  };
+  onToken = () => {};
   render() {
-    var baseDonations = {
-      personal: 3000,
-      educational: 15000,
-      commercial: 200000
-    };
-    debugger;
     return (
-      <form>
-        <h2>Select Your Usage Level:</h2>
-        <fieldset>
-          <label>
-            <input
-              type="radio"
-              name="usage"
-              value="personal"
-              checked={this.state.usage === "personal"}
-              onClick={this.setUsage}
-            />{" "}
+      <div className={style.donationForm}>
+        <div className={style.section}>
+          <h2>Usage:</h2>
+          <button
+            className={`${style.button} ${style.personal} ${this.state.usage ===
+            "personal"
+              ? style.active
+              : ""}`}
+            onClick={this.setUsage}
+            name="usage"
+            value="personal"
+          >
             Personal
-          </label>
-          <label>
-            <input
-              type="radio"
-              name="usage"
-              value="educational"
-              checked={this.state.usage === "educational"}
-              onClick={this.setUsage}
-            />{" "}
+          </button>{" "}
+          <button
+            className={`${style.button} ${style.educational} ${this.state
+              .usage === "educational"
+              ? style.active
+              : ""}`}
+            onClick={this.setUsage}
+            name="usage"
+            value="educational"
+          >
             Educational
-          </label>
-          <label>
-            <input
-              type="radio"
-              name="usage"
-              value="commercial"
-              checked={this.state.usage === "commercial"}
-              onClick={this.setUsage}
-            />{" "}
+          </button>
+          <button
+            className={`${style.button} ${style.commercial} ${this.state
+              .usage === "commercial"
+              ? style.active
+              : ""}`}
+            onClick={this.setUsage}
+            name="usage"
+            value="commercial"
+          >
             Commercial
-          </label>
-        </fieldset>
-        <fieldset>
+          </button>
+        </div>
+        <div className={style.section}>
+          {this.state.usage === "personal" &&
+            <p>
+              <strong>Personal: </strong>You plan on using Thorium every now and
+              then with a few friends to do some bridge simulation or 'Space
+              LARP-ing'. You don't charge money or advertise - you just want to
+              have a good time.
+            </p>}
+          {this.state.usage === "educational" &&
+            <p>
+              <strong>Educational: </strong>You are a school or educator that
+              wants to use Thorium to give your students a Space Edventure! You
+              might run field trips for other schools and might charge for the
+              cost of the flights, but you don't advertise or run paid flights
+              for private parties. You just want to see your students excel!
+            </p>}
+          {this.state.usage === "commercial" &&
+            <p>
+              <strong>Commercial: </strong>You run flights of all kinds -
+              birthday parties, corporate training, family reunions, summer
+              camps - the whole gamut. You want to give your customers the most
+              exciting, inspiring experience possible (for an affordable price).
+            </p>}
+        </div>
+        <div className={style.section}>
+          <h2>Simulators: </h2>
           <p>
             How many simulators do you intend to run simultaneously (either in
             joint-flights or solo)?
           </p>
-          <input
-            type="range"
-            onChange={evt => {
-              this.setState({ simulators: evt.target.value });
-            }}
-            value={this.state.simulators}
-            min="1"
-            max="6"
+          <div className={style.inputRange}>
+            <InputRange
+              maxValue={6}
+              minValue={1}
+              value={this.state.simulators}
+              onChange={this.setSimulators}
+            />
+          </div>
+        </div>
+        <div className={style.section}>
+          <h2>Payments: </h2>
+          <button
+            className={`${style.button} ${style.educational} ${this.state
+              .payment === "once"
+              ? style.active
+              : ""}`}
+            onClick={this.setPayment}
+            value="once"
+          >
+            One-Time Donation
+          </button>
+          <button
+            className={`${style.button} ${style.commercial} ${this.state
+              .payment === "multiple"
+              ? style.active
+              : ""}`}
+            onClick={this.setPayment}
+            value="multiple"
+          >
+            Monthly Recurring Donation
+          </button>
+        </div>
+        <div className={style.section}>
+          <h2>Suggested Donation: </h2>
+          <CurrencyInput
+            decimalSeparator="."
+            thousandSeparator=","
+            prefix="$"
+            className={style.donationInput}
+            value={this.state.donation}
+            onChange={evt => this.setState({ donation: evt.target.value })}
           />
-        </fieldset>
-        <fieldset>
-          <label>
-            <input type="radio" /> One-Time Donation: ${baseDonations[
-              this.state.usage
-            ] *
-              this.state.simulators /
-              100}
-          </label>
-          <label>
-            <input type="radio" /> Monthly Recurring Donation: ${Math.round(
-              baseDonations[this.state.usage] * this.state.simulators / 24
-            ) / 100}
-          </label>
-        </fieldset>
+        </div>
         <StripeCheckout
-        token={this.onToken}
-        stripeKey="pk_test_8UNLvH4kjgqPYyhot5XfwWz6"
-      />
-      </form>
+          token={this.onToken}
+          stripeKey="pk_test_8UNLvH4kjgqPYyhot5XfwWz6"
+        />
+      </div>
     );
   }
 }
