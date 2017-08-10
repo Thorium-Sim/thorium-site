@@ -101,7 +101,16 @@ class DonationForm extends Component {
         (evt.target.value === "multiple" ? 1 / 24 : 1) / 100
     });
   };
-  onToken = () => {};
+  onToken = (charge) => {
+    fetch('https://12usj3vwf1.execute-api.us-east-1.amazonaws.com/prod/StripeCheckout', {
+      method: 'POST',
+      mode: 'cors',
+      body: {
+        stripeToken: charge.id,
+        amount: Math.round(this.state.donation * 100)
+      }
+    }).then(res => console.log('Charge Complete:', res))
+  };
   render() {
     return (
       <div className={style.donationForm}>
@@ -204,7 +213,7 @@ class DonationForm extends Component {
           </button>
         </div>
         <div className={style.section}>
-          <h2>Suggested Donation: </h2>
+          <h2>Suggested {this.state.payment === 'multiple' && 'Monthly'} Donation: </h2>
           <CurrencyInput
             decimalSeparator="."
             thousandSeparator=","
@@ -216,6 +225,12 @@ class DonationForm extends Component {
         </div>
         <StripeCheckout
           token={this.onToken}
+          name="Thorium Donation"
+          description="Fyreworks LLC"
+          panelLabel={`Donate ${this.state.payment === 'multiple' && 'Monthly'}:`}
+          currency="USD"
+          amount={Math.round(this.state.donation * 100)}
+          image="/assets/logo.png"
           stripeKey="pk_test_8UNLvH4kjgqPYyhot5XfwWz6"
         />
       </div>
