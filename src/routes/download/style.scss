@@ -26,8 +26,11 @@ section {
     margin: 0;
     font-size: 50px;
   }
-  p {
+  p, li {
     line-height: 2;
+  }
+  li {
+    margin-bottom: 10px;
   }
 }
 

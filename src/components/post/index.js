@@ -2,6 +2,7 @@ import { h } from "preact";
 import Markdown from "react-markdown";
 import style from "./style.scss";
 import Nav from "../nav";
+import Footer from "../footer";
 
 function formatDate(date) {
   if (!date.getDate) {
@@ -42,5 +43,6 @@ export default ({ title, author, date, content }) =>
       </small>
       <Markdown source={content} />
     </div>
+    <Footer />
     <div className={style.background} />
   </section>;

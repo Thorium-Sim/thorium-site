@@ -2,6 +2,7 @@ import { h } from 'preact';
 import style from './style.scss';
 import posts from '../../posts';
 import Nav from '../../components/nav';
+import Footer from '../../components/footer';
 
 import { Link } from 'preact-router/match';
 
@@ -36,6 +37,7 @@ export default () =>
 		<h1>Posts</h1>
 		{posts.map(p => <Post {...p} />)}
 		</div>
+								<Footer />
 		<div className={style.background} />
 	</section>;
 

@@ -1,7 +1,8 @@
 import { h } from "preact";
 import style from "./style.scss";
 import Nav from "../../components/nav";
-import DonationForm from './donationForm';
+import Footer from "../../components/footer";
+import DonationForm from "./donationForm";
 
 export default () =>
   <section>
@@ -55,11 +56,17 @@ export default () =>
           your use-case, or fill in your own amount. Recurring donations are
           also accepted and encouraged!
         </p>
+        <p>
+          If you have any problems with your donation, or need to cancel your
+          subscription or request a refund, please{" "}
+          <a href="mailto:contact@thoriumsim.com">Contact Us</a>.
+        </p>
       </main>
       <aside className={style.sidebar}>
         <h1>Donate</h1>
         <DonationForm />
       </aside>
     </div>
+    <Footer />
     <div className={style.background} />
   </section>;

@@ -2,38 +2,75 @@ import { h, Component } from "preact";
 import { Link } from "preact-router/match";
 import style from "./style.scss";
 import Nav from "../nav";
-var cardList = [
+import Footer from '../footer';
 
-  "LongRangeComm",
-  "EngineControl",
-  "Navigation",
-  "Thrusters",
-  "Sensors",
-  "Transporters",
-  "SecurityDecks",
-  "SecurityTeams",
-  "SecurityScans",
-  "ShieldControl",
-  "CommDecoding",
-  "CommInternal",
-  "Docking",
-  "CommShortRange",
-  "PowerDistribution",
-  "DamageControl",
-  "PowerDistributionBattery",
-  "Targeting",
-  "PhaserCharging",
-  "ProbeConstruction",
-  "StealthField",
-  "CargoControl",
-  "CoolantControl",
-  "TractorBeam",
-  "DamageTeams",
-  "AlertCondition",
-  "ProbeNetwork",
-  "SelfDestruct",
-  "ProbeControl",
-  "ReactorControl"
+var cardList = [
+  {
+    station: "Flight",
+    cards: [
+      { name: "Engine Control" },
+      { name: "Thrusters" },
+      { name: "Navigation" },
+      { name: "Docking" }
+    ]
+  },
+  {
+    station: "Communications",
+    cards: [
+      { name: "Long Range Comm" },
+      { name: "Decoding" },
+      { name: "Short Range Comm" },
+      { name: "Internal Comm" }
+    ]
+  },
+  {
+    station: "Operations",
+    cards: [
+      { name: "Transporters" },
+      { name: "Tractor Beam" },
+      { name: "Cargo Control" },
+      { name: "Stealth Field" }
+    ]
+  },
+  {
+    station: "Engineering",
+    cards: [
+      { name: "Power Distribution" },
+      { name: "Reactor Control" },
+      { name: "Coolant Control" },
+      { name: "Damage Control" },
+      { name: "Damage Teams" }
+    ]
+  },
+  {
+    station: "Science",
+    cards: [
+      { name: "Sensors" },
+      { name: "Probe Construction" },
+      { name: "Probe Network" },
+      { name: "Probe Control" }
+    ]
+  },
+  {
+    station: "Security",
+    cards: [
+      { name: "Security Teams" },
+      { name: "Deck Control" },
+      { name: "Internal Sensors" }
+    ]
+  },
+  {
+    station: "Tactical",
+    cards: [
+      { name: "Targeting" },
+      { name: "Phaser Charging" },
+      { name: "Shield Control" }
+    ]
+  },
+  {
+    station: "Command",
+    cards: [{ name: "Alert Condition" }, { name: "Self Destruct" }]
+  }
 ];
 
 export default class Front extends Component {
@@ -68,13 +105,10 @@ export default class Front extends Component {
           <h1>Thorium</h1>
           <h2>Next Generation Starship Simulator Controls</h2>
           <div>
-            <a
-              className={`${style.button} ${style.about}`}
-              href="#about"
-            >
+            <a className={`${style.button} ${style.about}`} href="#about">
               About
             </a>
-            </div>
+          </div>
           <div>
             <Link
               className={`${style.button} ${style.donate}`}
@@ -150,15 +184,24 @@ export default class Front extends Component {
           <p>
             Cards control specific functionality for the systems on the ship.
             Each card is hand-crafted to provide the best experience for your
-            crew.
+            crew. You can use the suggested stations below, or mix and match
+            them to any station you like. And new cards are being added
+            regularly to fit whatever needs you might have.
           </p>
-          <ul className={style.cardlist}>
-            {cardList.map(c =>
-              <li key={c}>
-                {c}
-              </li>
+          <div className={style.stations}>
+            {cardList.map(s =>
+              <div className={style.station}>
+                <h3>
+                  {s.station}
+                </h3>
+                {s.cards.map(c =>
+                  <p key={c.name}>
+                    {c.name}
+                  </p>
+                )}
+              </div>
             )}
-          </ul>
+          </div>
         </section>
         <section className={style.section}>
           <h2>A Thriving Community</h2>
@@ -174,9 +217,7 @@ export default class Front extends Component {
             <Link href="/download">Donating</Link>.
           </p>
         </section>
-        <footer className={style.footer}>
-          <a href="https://fyreworks.us">© 2017 Fyreworks LLC.</a> | Made with ❤️ by Alex Anderson
-        </footer>
+        <Footer />
       </div>
     );
   }

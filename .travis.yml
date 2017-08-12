@@ -8,6 +8,6 @@ script:
 deploy:
   provider: surge
   project: ./build/
-  domain: thorium.ralexanderson.com
+  domain: thoriumsim.com
   skip_cleanup: true
 

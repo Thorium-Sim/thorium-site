@@ -125,21 +125,13 @@ $about: #5F83B8;
   }
 }
 
-.cardlist {
-  columns: 3;
-  column-gap: 3em;
-  li {
-    list-style: none;
-    margin-bottom: 20px;
-  }
-}
-.footer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  color: #fff;
-  background-color: #444;
-  border-top: rgba(0, 0, 0, 0.5);
+.stations {
+      display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 960px;
+    width: 90%;
+    .station {
+      margin: 30px;
+    }
 }
