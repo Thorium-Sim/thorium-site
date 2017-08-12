@@ -51,6 +51,18 @@ export default () =>
           </li>
           <li>Increased priority for feature requests.</li>
         </ul>
+        <p>Your donation will go towards several great causes: </p>
+        <ul>
+          <li>Making new features and content for Thorium</li>
+          <li>Keeping Thorium updates free</li>
+          <li>
+            The{" "}
+            <a href="https://github.com/webdev-guild/webdev-guild">
+              WebDev Guild
+            </a>, a club for middle school students to learn web development
+            skills
+          </li>
+        </ul>
         <p>
           Use the donation form to find out your suggested donation based on
           your use-case, or fill in your own amount. Recurring donations are
