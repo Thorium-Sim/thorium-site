@@ -213,7 +213,7 @@ export default class Front extends Component {
             Thorium, and priority in feature requests.
           </p>
           <p>
-            Interested in becoming a donor? Consider{" "}
+            Interested in contributing? Consider{" "}
             <Link href="/download">Donating</Link>.
           </p>
         </section>
