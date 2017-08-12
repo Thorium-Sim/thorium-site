@@ -51,16 +51,15 @@ export default () =>
           </li>
           <li>Increased priority for feature requests.</li>
         </ul>
-        <p>Your donation will go towards several great causes: </p>
+        <p>Your donation will go toward several great causes: </p>
         <ul>
-          <li>Making new features and content for Thorium</li>
-          <li>Keeping Thorium updates free</li>
+          <li>Making new features and content for Thorium.</li>
+          <li>Keeping Thorium updates free.</li>
           <li>
-            The{" "}
+            Teaching middle and high school students in the {" "}
             <a href="https://github.com/webdev-guild/webdev-guild">
               WebDev Guild
-            </a>, a club for middle school students to learn web development
-            skills
+            </a> how to code.
           </li>
         </ul>
         <p>
