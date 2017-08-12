@@ -69,9 +69,9 @@ export default () =>
           also accepted and encouraged!
         </p>
         <p>
-          If you have any problems with your donation, or need to cancel your
-          subscription or request a refund, please{" "}
-          <a href="mailto:contact@thoriumsim.com">Contact Us</a>.
+          If you have any problems with your donation, need to cancel your
+          subscription or want to request a refund, please{" "}
+          <a href="mailto:contact@thoriumsim.com">contact Us</a>.
         </p>
       </main>
       <aside className={style.sidebar}>
