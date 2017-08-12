@@ -1,0 +1,138 @@
+section {
+  background: transparent;
+}
+.background {
+  background-image: url('/assets/background2.jpeg');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.container {
+  background: transparent;
+  max-width: 960px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10vh 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 2;
+  h1 {
+    margin: 0;
+    font-size: 50px;
+  }
+  p, li {
+    line-height: 2;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+.content {
+  width: 60%;
+}
+.sidebar {
+  width: 35%;
+  margin: 0 2.5%;
+}
+
+.donationForm {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  .section {
+    margin: 20px auto;
+  }
+  h2 {
+    margin-bottom: 0;
+  }
+  h2 + p {
+    margin-top: 0;
+  }
+}
+
+.inputRange {
+  margin: 40px auto;
+  span {
+    font-size: 16px;
+  }
+}
+
+.donationInput {
+  background-color: rgba(0, 0, 0, 0.75);
+  border: solid 2px rgba(255, 255, 255, 0.5);
+  color: white;
+  font-size: 34px;
+  width: 100%;
+}
+
+$range: #3f51b5;
+$personal: #5fb79a;
+$educational: #8f49ad;
+$commercial: #4b6496;
+
+.button {
+  -webkit-appearance: none;
+  -webkit-user-select: none;
+  -moz-appearance: none;
+  user-select: none;
+  font-size: 18px;
+  margin: 5px 0;
+  border-style: solid;
+  border-width: 3px;
+  padding: 7px 20px;
+  color: white;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.button:visited {
+  color: white !important;
+}
+
+.personal {
+  background-color: $personal;
+  border-color: darken($personal, 10%);
+  &:hover {
+    background-color: darken($personal, 5%);
+  }
+  &.active,
+  &:active {
+    border: solid 3px lighten($personal, 10%);
+    background-color: darken($personal, 15%);
+  }
+}
+
+.educational {
+  background-color: $educational;
+  border-color: darken($educational, 10%);
+  &:hover {
+    background-color: darken($educational, 5%);
+  }
+  &.active,
+  &:active {
+    border: solid 3px lighten($educational, 10%);
+    background-color: darken($educational, 15%);
+  }
+}
+
+.commercial {
+  background-color: $commercial;
+  border-color: darken($commercial, 10%);
+  &:hover {
+    background-color: darken($commercial, 5%);
+  }
+  &.active,
+  &:active {
+    border: solid 3px lighten($commercial, 10%);
+    background-color: darken($commercial, 15%);
+  }
+}

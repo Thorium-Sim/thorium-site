@@ -14,9 +14,15 @@
     "extends": "eslint-config-synacor"
   },
   "devDependencies": {
+    "babel-eslint": "^7.2.3",
     "babel-plugin-preval": "^1.4.2",
     "eslint": "^4.3.0",
+    "eslint-config-react-app": "^1.0.5",
     "eslint-config-synacor": "^1.0.1",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.1.0",
     "if-env": "^1.0.0",
     "node-sass": "^4.5.3",
     "preact-cli": "^1.4.0",
@@ -27,7 +33,10 @@
     "preact": "^8.2.1",
     "preact-compat": "^3.16.0",
     "preact-router": "^2.5.5",
+    "react-currency-input": "^1.3.4",
+    "react-input-range": "^1.2.1",
     "react-markdown": "^2.5.0",
+    "react-stripe-checkout": "^2.6.3",
     "rss": "^1.2.2"
   }
 }

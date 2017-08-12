@@ -1,6 +1,9 @@
 import { h } from 'preact';
 import style from './style.scss';
 import posts from '../../posts';
+import Nav from '../../components/nav';
+import Footer from '../../components/footer';
+
 import { Link } from 'preact-router/match';
 
 function formatDate(date) {
@@ -29,8 +32,13 @@ function formatDate(date) {
 
 export default () =>
 	<section>
+		<Nav />
+		<div className={style.container}>
 		<h1>Posts</h1>
 		{posts.map(p => <Post {...p} />)}
+		</div>
+								<Footer />
+		<div className={style.background} />
 	</section>;
 
 const Post = ({ title, author, date, path, exerpt }) =>
@@ -39,7 +47,6 @@ const Post = ({ title, author, date, path, exerpt }) =>
 			<h3 className={style.title}>
 				{title}
 			</h3>
-			<p><small>{exerpt}</small></p>
 			<p className={style.author}>
 				{author}
 			</p>

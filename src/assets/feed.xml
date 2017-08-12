@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[R. Alex Anderson]]></title><description><![CDATA[It is what it is]]></description><link>https://ralexanderson.com</link><generator>RSS for Node</generator><lastBuildDate>Sun, 06 Aug 2017 02:31:33 GMT</lastBuildDate><atom:link href="https://ralexanderson.com/assets/feed.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[2017 R. Alex Anderson]]></copyright><language><![CDATA[en]]></language><webMaster><![CDATA[R. Alex Anderson]]></webMaster><item><title><![CDATA[Update 8]]></title><description><![CDATA[<ul>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[R. Alex Anderson]]></title><description><![CDATA[It is what it is]]></description><link>https://ralexanderson.com</link><generator>RSS for Node</generator><lastBuildDate>Sat, 12 Aug 2017 13:16:00 GMT</lastBuildDate><atom:link href="https://ralexanderson.com/assets/feed.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[2017 R. Alex Anderson]]></copyright><language><![CDATA[en]]></language><webMaster><![CDATA[R. Alex Anderson]]></webMaster><item><title><![CDATA[Update 9]]></title><description><![CDATA[<p>This week has been spent on a number of side project, including an exciting announcement (stay tuned!) so there weren&#39;t as much progress on Thorium. Regardless, there are a few updates:</p>
+<ul>
+<li>Bug fixes for:<ul>
+<li>Shields</li>
+<li>Navigation</li>
+<li>Core</li>
+<li>Thrusters</li>
+<li>Damage Teams</li>
+<li>Comm</li>
+<li>Power Distribution</li>
+<li>Probe Control</li>
+<li>Sensors</li>
+<li>Transporters</li>
+<li>Internal Scanning</li>
+</ul>
+</li>
+<li>Add Flow Typing for static type checking</li>
+<li>Add local fonts so Thorium can run 100% offline</li>
+</ul>
+<p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/update-9/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-9/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 05 Aug 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 8 - Little Space Robots and Boom Boom Sticks]]></title><description><![CDATA[<ul>
 <li>Completed the probe network card and core.</li>
 <li>Completed the self-destruct card and core.</li>
 <li>Completed the probe control card and core.</li>
@@ -7,7 +28,7 @@
 <p>As a reminder, I&#39;m starting a WebDev Guild. There is an advancement guide available on the <a href="https://github.com/alexanderson1993/webdev-guild">GitHub Repo</a>.</p>
 <p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
 <p>Alex</p>
-]]></description><link>https://ralexanderson.com/posts/update-8/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-8/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 29 Jul 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 7]]></title><description><![CDATA[<ul>
+]]></description><link>https://ralexanderson.com/posts/update-8/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-8/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 29 Jul 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 7 - She has the gift]]></title><description><![CDATA[<ul>
 <li>Added sensor nudge buttons to move all contacts</li>
 <li>Added sensor yaw buttons to rotate contacts around the center</li>
 <li>Added the &#39;Ask For Speed&#39; dropdown when moving sensor contacts</li>
@@ -18,14 +39,14 @@
 <p>As a reminder, I&#39;m starting a WebDev Guild. There is an advancement guide available on the <a href="https://github.com/alexanderson1993/webdev-guild">GitHub Repo</a>.</p>
 <p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
 <p>Alex</p>
-]]></description><link>https://ralexanderson.com/posts/update-7/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-7/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 22 Jul 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 6]]></title><description><![CDATA[<ul>
+]]></description><link>https://ralexanderson.com/posts/update-7/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-7/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 22 Jul 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 6 - Jester Tester]]></title><description><![CDATA[<ul>
 <li>Refactored the sensors system to use a DOM based rendering as opposed to a Canvas based or ThreeJS based rendering. It&#39;s more straightforward and seems to work just fine. The code for both of the other rendering methods is still in the repo, so it can be reused easily.</li>
 <li>Switched to using the Jest testing framework. It executes tests faster and provides more features than Mocha, which was being used before.</li>
 </ul>
 <p>As an extra note, I&#39;m starting a WebDev Guild. There is an advancement guide available on the <a href="https://github.com/alexanderson1993/webdev-guild">GitHub Repo</a>.</p>
 <p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
 <p>Alex</p>
-]]></description><link>https://ralexanderson.com/posts/update-6/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-6/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 15 Jul 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 5]]></title><description><![CDATA[<ul>
+]]></description><link>https://ralexanderson.com/posts/update-6/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-6/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 15 Jul 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 5 - Flight Deck Ready for Take-off]]></title><description><![CDATA[<ul>
 <li>Major refactor of the control room system<ul>
 <li>Removed the top tab-bar for the &#39;control room&#39; screen.</li>
 <li>Refactored and completed the simulator config for pre-defining template simulators with stations, cards, systems, decks, etc.</li>
@@ -42,7 +63,7 @@
 </ul>
 <p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
 <p>Alex</p>
-]]></description><link>https://ralexanderson.com/posts/update-5/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-5/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Fri, 07 Jul 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 4]]></title><description><![CDATA[<ul>
+]]></description><link>https://ralexanderson.com/posts/update-5/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-5/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Fri, 07 Jul 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 4 - Big Guns and What to do if you get shot!]]></title><description><![CDATA[<ul>
 <li>Created a core component for managing and importing crew from CSV</li>
 <li>Created security teams card</li>
 <li>Created damage teams card</li>
@@ -51,7 +72,7 @@
 </ul>
 <p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
 <p>Alex</p>
-]]></description><link>https://ralexanderson.com/posts/update-4/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-4/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 01 Jul 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 3]]></title><description><![CDATA[<ul>
+]]></description><link>https://ralexanderson.com/posts/update-4/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-4/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 01 Jul 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 3 - Scrambling the Alpha Matrix is Go]]></title><description><![CDATA[<ul>
 <li>Fixes for layout, decoding, sensors, assets, shields, sensor contacts, damage reports, and coolant.</li>
 <li>Added thruster required rotation for manual thrusters on core.</li>
 <li>Added Tractor beam card.</li>
@@ -60,7 +81,7 @@
 </ul>
 <p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
 <p>Alex</p>
-]]></description><link>https://ralexanderson.com/posts/update-3/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-3/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 24 Jun 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 2]]></title><description><![CDATA[<ul>
+]]></description><link>https://ralexanderson.com/posts/update-3/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-3/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 24 Jun 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 2 - Stretchy Screens]]></title><description><![CDATA[<ul>
 <li>Finished the layout for 1024 wide layouts.</li>
 <li>Fixed layout for Thrusters, Docking, Sensors, Targeting, Short Range Comm, etc.</li>
 <li>Added tracking for which clients send mutations</li>
@@ -69,7 +90,7 @@
 </ul>
 <p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>.</p>
 <p>Alex</p>
-]]></description><link>https://ralexanderson.com/posts/update-2/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-2/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 17 Jun 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 1 - Nearing Completion]]></title><description><![CDATA[<ul>
+]]></description><link>https://ralexanderson.com/posts/update-2/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-2/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 17 Jun 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 1 - Chill out, man]]></title><description><![CDATA[<ul>
 <li>Added a coolant tank system and card</li>
 <li>Added coolant support for engines and phasers</li>
 <li>Revamped the sensors to make it more performant and consistent. Finished a minimal feature set.</li>

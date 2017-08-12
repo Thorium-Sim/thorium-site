@@ -1,0 +1,137 @@
+.fullsize {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  max-width: 20%;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+}
+.hero {
+  background-image: url('/assets/hero.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  h1 {
+    margin: 0;
+    font-size: 4rem;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  }
+  h2 {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: center;
+  }
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+  & > p {
+    max-width: 700px;
+    line-height: 2;
+    width: 100%;
+  }
+  h2 {
+    margin-top: 0;
+    font-size: 50px;
+  }
+  &:nth-child(odd) {
+    background-color: #ccc;
+    color: #333;
+  }
+}
+
+.button {
+  -webkit-appearance: none;
+  -webkit-user-select: none;
+  -moz-appearance: none;
+  user-select: none;
+  font-size: 26px;
+  margin: 20px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 7px 20px;
+  color: white;
+  width: 15rem;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  &:visited {
+    color: white;
+    text-decoration: none !important;
+  }
+}
+
+$donate: #5fb760;
+.donate {
+  background-color: $donate;
+  border-color: #356935;
+  &:hover {
+    background-color: darken($donate, 5%);
+  }
+  &:active {
+    background-color: darken($donate, 15%);
+  }
+}
+$contribute: #dd6929;
+.contribute {
+  background-color: $contribute;
+  border-color: darken($contribute, 10%);
+  &:hover {
+    background-color: darken($contribute, 5%);
+  }
+  &:active {
+    background-color: darken($contribute, 15%);
+  }
+}
+
+$about: #5F83B8;
+.about {
+  background-color: $about;
+  border-color: darken($about, 20%);
+  &:hover {
+    background-color: darken($about, 5%);
+  }
+  &:active {
+    background-color: darken($about, 15%);
+  }
+}
+
+.featureBlock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 960px;
+  width: 90%;
+  div {
+    width: 30%;
+    h3 {
+      font-size: 30px;
+      text-align: center;
+    }
+    p {
+      line-height: 2;
+    }
+  }
+}
+
+.stations {
+      display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 960px;
+    width: 90%;
+    .station {
+      margin: 30px;
+    }
+}
