@@ -51,16 +51,15 @@ export default () =>
           </li>
           <li>Increased priority for feature requests.</li>
         </ul>
-        <p>Your donation will go towards several great causes: </p>
+        <p>Your donation will go toward several great causes: </p>
         <ul>
-          <li>Making new features and content for Thorium</li>
-          <li>Keeping Thorium updates free</li>
+          <li>Making new features and content for Thorium.</li>
+          <li>Keeping Thorium updates free.</li>
           <li>
-            The{" "}
+            Teaching middle and high school students in the {" "}
             <a href="https://github.com/webdev-guild/webdev-guild">
               WebDev Guild
-            </a>, a club for middle school students to learn web development
-            skills
+            </a> how to code.
           </li>
         </ul>
         <p>
@@ -69,9 +68,9 @@ export default () =>
           also accepted and encouraged!
         </p>
         <p>
-          If you have any problems with your donation, or need to cancel your
-          subscription or request a refund, please{" "}
-          <a href="mailto:contact@thoriumsim.com">Contact Us</a>.
+          If you have any problems with your donation, need to cancel your
+          subscription or want to request a refund, please{" "}
+          <a href="mailto:contact@thoriumsim.com">contact us</a>.
         </p>
       </main>
       <aside className={style.sidebar}>
