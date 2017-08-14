@@ -2,53 +2,53 @@ import { h, Component } from "preact";
 import { Link } from "preact-router/match";
 import style from "./style.scss";
 import Nav from "../nav";
-import Footer from '../footer';
+import Footer from "../footer";
 
 var cardList = [
   {
     station: "Flight",
     cards: [
-      { name: "Engine Control" },
-      { name: "Thrusters" },
-      { name: "Navigation" },
-      { name: "Docking" }
+      { name: "Engine Control", image: "Engine Control.jpg" },
+      { name: "Thrusters", image: "Thrusters.jpg" },
+      { name: "Navigation", image: "Navigation.jpg" },
+      { name: "Docking", image: "Docking Control.jpg" }
     ]
   },
   {
     station: "Communications",
     cards: [
-      { name: "Long Range Comm" },
-      { name: "Decoding" },
-      { name: "Short Range Comm" },
-      { name: "Internal Comm" }
+      { name: "Long Range Comm", image: "Long Range Comm.jpg" },
+      { name: "Decoding", image: "Decoding.jpg" },
+      { name: "Short Range Comm", image: "Short Range Comm.jpg" },
+      { name: "Internal Comm", image: "Internal Comm.jpg" }
     ]
   },
   {
     station: "Operations",
     cards: [
-      { name: "Transporters" },
-      { name: "Tractor Beam" },
-      { name: "Cargo Control" },
-      { name: "Stealth Field" }
+      { name: "Transporters", image: "Transporters.jpg" },
+      { name: "Tractor Beam", image: "Tractor Beam.jpg" },
+      { name: "Cargo Control", image: "Cargo Control.jpg" },
+      { name: "Stealth Field", image: "Stealth Field.jpg" }
     ]
   },
   {
     station: "Engineering",
     cards: [
-      { name: "Power Distribution" },
-      { name: "Reactor Control" },
-      { name: "Coolant Control" },
-      { name: "Damage Control" },
+      { name: "Power Distribution", image: "Power Distribution.jpg" },
+      { name: "Reactor Control", image: "Reactor Control.jpg" },
+      { name: "Coolant Control", image: "Coolant.jpg" },
+      { name: "Damage Control", image: "Damage Reports.jpg" },
       { name: "Damage Teams" }
     ]
   },
   {
     station: "Science",
     cards: [
-      { name: "Sensors" },
-      { name: "Probe Construction" },
-      { name: "Probe Network" },
-      { name: "Probe Control" }
+      { name: "Sensors", image: "Sensors.jpg" },
+      { name: "Probe Construction", image: "Probe Construction.jpg" },
+      { name: "Probe Network", image: "Probe Network.jpg" },
+      { name: "Probe Control", image: "Probe Control.jpg" }
     ]
   },
   {
@@ -64,17 +64,17 @@ var cardList = [
     cards: [
       { name: "Targeting" },
       { name: "Phaser Charging" },
-      { name: "Shield Control" }
+      { name: "Shield Control", image: "Shields.jpg" }
     ]
   },
   {
     station: "Command",
-    cards: [{ name: "Alert Condition" }, { name: "Self Destruct" }]
+    cards: [{ name: "Alert Condition", image: "Alert Condition.jpg" }, { name: "Self Destruct", image: "Self Destruct.jpg" }]
   }
 ];
 
 export default class Front extends Component {
-  state = { top: -60 };
+  state = { top: -60, station: null };
   componentDidMount() {
     requestAnimationFrame(this.getScrollState);
   }
@@ -91,6 +91,9 @@ export default class Front extends Component {
       });
     }
     requestAnimationFrame(this.getScrollState);
+  };
+  closeStation = () => {
+    this.setState({ station: null });
   };
   render() {
     return (
@@ -196,7 +199,17 @@ export default class Front extends Component {
                 </h3>
                 {s.cards.map(c =>
                   <p key={c.name}>
-                    {c.name}
+                    {c.image
+                      ? <a
+                          href="#"
+                          onClick={evt => {
+                            evt.preventDefault();
+                            this.setState({ station: c });
+                          }}
+                        >
+                          {c.name}
+                        </a>
+                      : c.name}
                   </p>
                 )}
               </div>
@@ -217,6 +230,14 @@ export default class Front extends Component {
             <Link href="/download">Donating</Link>.
           </p>
         </section>
+        {this.state.station &&
+          <section className={style.stationOverlay} onClick={this.closeStation}>
+            <img
+              className={style.stationImage}
+              draggable={false}
+              src={`/assets/screenshots/${this.state.station.image}`}
+            />
+          </section>}
         <Footer />
       </div>
     );

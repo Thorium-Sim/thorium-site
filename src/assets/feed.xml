@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[R. Alex Anderson]]></title><description><![CDATA[It is what it is]]></description><link>https://ralexanderson.com</link><generator>RSS for Node</generator><lastBuildDate>Sat, 12 Aug 2017 13:16:00 GMT</lastBuildDate><atom:link href="https://ralexanderson.com/assets/feed.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[2017 R. Alex Anderson]]></copyright><language><![CDATA[en]]></language><webMaster><![CDATA[R. Alex Anderson]]></webMaster><item><title><![CDATA[Update 9]]></title><description><![CDATA[<p>This week has been spent on a number of side project, including an exciting announcement (stay tuned!) so there weren&#39;t as much progress on Thorium. Regardless, there are a few updates:</p>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[R. Alex Anderson]]></title><description><![CDATA[It is what it is]]></description><link>https://ralexanderson.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 14 Aug 2017 23:36:53 GMT</lastBuildDate><atom:link href="https://ralexanderson.com/assets/feed.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[2017 R. Alex Anderson]]></copyright><language><![CDATA[en]]></language><webMaster><![CDATA[R. Alex Anderson]]></webMaster><item><title><![CDATA[Update 10 - I'm Free!]]></title><description><![CDATA[<h1 id="thorium-is-now-open-source-">Thorium is now Open Source!</h1>
+<p>That&#39;s right. Everything in Thorium is now Libre, which means you can do whatever you want with it. Make your own controls, contribute back, run your own simulator - the sky is the limits. Actually, the sky is no longer the limits, since you have your own starship!</p>
+<p>Thorium now supports a donation model. By becoming a donor, you get access to a drop-in built version of Thorium. <a href="https://thoriumsim.com/download/">Consider becoming a donor.</a></p>
+<p>As far as upates go:</p>
+<ul>
+<li>Released the new site. Check it out, and feel free to donate.</li>
+<li>Updated package dependencies.</li>
+<li>Refactored a lot of the code to simplify and clean it up.</li>
+<li>Created a simple viewscreen module. You can now show stuff on a dedicated viewscreen client. There are a lot of opportunities for budding programmers to create screens for the viewscreen. Get in touch if you are interested.</li>
+<li>Started working on improvements to the timeline system</li>
+<li>Added a naïve auto-save feature. It takes a snapshot of the simulator state every 10 seconds. There is no support for going back to specifc saves or rewinding currently, but that feature is planned for the future.</li>
+</ul>
+<p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/update-10/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-10/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 12 Aug 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 9 - Squashin' Bugs]]></title><description><![CDATA[<p>This week has been spent on a number of side project, including an exciting announcement (stay tuned!) so there weren&#39;t as much progress on Thorium. Regardless, there are a few updates:</p>
 <ul>
 <li>Bug fixes for:<ul>
 <li>Shields</li>
