@@ -39,7 +39,7 @@ var cardList = [
       { name: "Reactor Control", image: "Reactor Control.jpg" },
       { name: "Coolant Control", image: "Coolant.jpg" },
       { name: "Damage Control", image: "Damage Reports.jpg" },
-      { name: "Damage Teams" }
+      { name: "Damage Teams", image: "Damage Teams.jpg" }
     ]
   },
   {
@@ -54,16 +54,16 @@ var cardList = [
   {
     station: "Security",
     cards: [
-      { name: "Security Teams" },
-      { name: "Deck Control" },
-      { name: "Internal Sensors" }
+      { name: "Security Teams", image: "Security Teams.jpg" },
+      { name: "Deck Control", image: "Deck Control.jpg" },
+      { name: "Internal Sensors", image: "Internal Sensors.jpg" }
     ]
   },
   {
     station: "Tactical",
     cards: [
-      { name: "Targeting" },
-      { name: "Phaser Charging" },
+      { name: "Targeting", image: "Targeting.jpg" },
+      { name: "Phaser Charging", image: "Phaser Charging.jpg" },
       { name: "Shield Control", image: "Shields.jpg" }
     ]
   },
@@ -112,7 +112,7 @@ export default class Front extends Component {
               About
             </a>
           </div>
-          <div>
+          <div style={{display: 'flex', justifyContent:'center', flexWrap:'wrap'}}>
             <Link
               className={`${style.button} ${style.donate}`}
               href="/download/"

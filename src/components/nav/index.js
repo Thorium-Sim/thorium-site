@@ -12,10 +12,10 @@ export default ({top = 0}) =>
         <h1>Thorium</h1>
       </Link>
       <div className={style.spacer} />
-      <Link href="/download/">
+      <Link href="/download/" className={style.link}>
         <h2>Download</h2>
       </Link>
-      <Link href="/posts/">
+      <Link href="/posts/" className={style.link}>
         <h2>Updates</h2>
       </Link>
     </div>

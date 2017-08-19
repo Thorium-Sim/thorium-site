@@ -40,7 +40,7 @@
   left: 0;
   right: 0;
   z-index: 1000;
-  background-color: rgba(0,0,0,0.75);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 .stationImage {
   max-width: 80%;
@@ -111,7 +111,7 @@ $contribute: #dd6929;
   }
 }
 
-$about: #5F83B8;
+$about: #5f83b8;
 .about {
   background-color: $about;
   border-color: darken($about, 20%);
@@ -131,7 +131,7 @@ $about: #5F83B8;
   max-width: 960px;
   width: 90%;
   div {
-    width: 30%;
+    width: 30vh;
     h3 {
       font-size: 30px;
       text-align: center;
@@ -143,12 +143,32 @@ $about: #5F83B8;
 }
 
 .stations {
-      display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 960px;
-    width: 90%;
-    .station {
-      margin: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 960px;
+  width: 90%;
+  .station {
+    margin: 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .section {
+    padding: 20px 5%;
+    h2 {
+      font-size: 30px;
     }
+    div {
+      h3 {
+        font-size: 26px;
+      }
+    }
+  }
+  .stations {
+    justify-content: flex-start;
+    .station {
+      margin:15px;
+    }
+  }
 }

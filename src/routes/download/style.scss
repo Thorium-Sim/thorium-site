@@ -136,3 +136,12 @@ a.button:visited {
     background-color: darken($commercial, 15%);
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .content {
+    width: 100%;
+  }
+  .sidebar {
+    width: 100%;
+  }
+}
