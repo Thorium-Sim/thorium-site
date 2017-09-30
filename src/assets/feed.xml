@@ -1,4 +1,100 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[R. Alex Anderson]]></title><description><![CDATA[It is what it is]]></description><link>https://ralexanderson.com</link><generator>RSS for Node</generator><lastBuildDate>Sat, 19 Aug 2017 18:33:50 GMT</lastBuildDate><atom:link href="https://ralexanderson.com/assets/feed.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[2017 R. Alex Anderson]]></copyright><language><![CDATA[en]]></language><webMaster><![CDATA[R. Alex Anderson]]></webMaster><item><title><![CDATA[Update 10 - I'm Free!]]></title><description><![CDATA[<h1 id="thorium-is-now-open-source-">Thorium is now Open Source!</h1>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[R. Alex Anderson]]></title><description><![CDATA[It is what it is]]></description><link>https://ralexanderson.com</link><generator>RSS for Node</generator><lastBuildDate>Sat, 30 Sep 2017 20:53:36 GMT</lastBuildDate><atom:link href="https://ralexanderson.com/assets/feed.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[2017 R. Alex Anderson]]></copyright><language><![CDATA[en]]></language><webMaster><![CDATA[R. Alex Anderson]]></webMaster><item><title><![CDATA[Update 17 - Look out the window! 🌅]]></title><description><![CDATA[<ul>
+<li>Refactored the subscription system to hopefully handle multiple clients better</li>
+<li>Added the ability to export and import missions and their macros</li>
+<li>Made various bug fixes, such as sorting the deck and room dropdowns, making widgets more prominent, and adding instructions for targeting.</li>
+<li>Added ability to create additional damage for non-standard systems</li>
+<li>Added a crew core and modified the IIFX core layout to be more functional</li>
+<li>Added ability to configure widgets on a station by station basis</li>
+<li>Added ability to send messages to and from specific teams</li>
+<li>Added several animations and screens for the viewscreen, inlcuding<ul>
+<li>Information (typed in text)</li>
+<li>Internal Sensors</li>
+<li>Tactical Failure</li>
+<li>Asteroid Field</li>
+<li>Forward Scans</li>
+<li>Docking Alert</li>
+<li>Engines Overheating</li>
+<li>Basic Red Alert</li>
+</ul>
+</li>
+<li>Added a viewscreen manager core</li>
+</ul>
+<figure>
+  <img src="/assets/posts/viewscreen-manager.gif" alt="Viewscreen Manager" />
+</figure>
+
+<p>I&#39;m also happy to announce the first donor to Thorium: Thomas Delclite! Thanks Thomas! </p>
+<p>Don&#39;t forget, as a donor you get access to the latest builds of Thorium. <a href="/download">Donate Today!</a></p>
+<p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/update-17/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-17/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 30 Sep 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 16 - Helpful Penguin Mode 🐧]]></title><description><![CDATA[<ul>
+<li>Added more training to the stations. Training is shown on screen, showing individual controls step-by-step</li>
+<li>Added a macro for sending long range comm messages</li>
+<li>Added core notifications, with text-to-speech announcements and the ability to disable either or both</li>
+<li>Added the core feed, which shows a feed of actionable items as they happen.</li>
+<li>Added additional contributors to the readme. ❤️</li>
+<li>Added a core for messaging</li>
+<li>Ensured that every system could be damaged, and tied engines and tractor beam to the power level</li>
+<li>Added decks listing for the Voyager</li>
+<li>Added presets for the Intolerance mission</li>
+</ul>
+<p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/update-16/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-16/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 23 Sep 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 15 - Flyswatter, round 2]]></title><description><![CDATA[<ul>
+<li>A bunch of bug fixes for a number of things. The full list is <a href="https://github.com/Thorium-Sim/thorium/issues/223">here</a>.</li>
+<li>Added a generic heat core</li>
+<li>Added a core for security decks</li>
+<li>Finished the shuttle bay card.</li>
+<li>Finished a status card, which includes crew counts and radiation.</li>
+<li>Added a core control for radiation and bridge crew count.</li>
+<li>Implemented slide-over cores on the default core layout.</li>
+<li>Refactored a bit of the server, splitting out FlightStructure code into their own files.</li>
+</ul>
+<p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/update-15/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-15/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 16 Sep 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 14 - Isopanels and client kiosks]]></title><description><![CDATA[<ul>
+<li>Did some fixes to the asset system</li>
+<li>Finished the &#39;Set Army Contact&#39; macro</li>
+<li>Built a basic isochip panel control. It shows the state of the chips and, if a panel is built and programmed right, can be integrated with hardware.</li>
+<li>Added a feature for clients using the kiosk application to auto-connect to Thorium.</li>
+<li>Made some fixes for the server bundler</li>
+<li>Added actions for shutdown, quit, and freak (moving the mouse). Those only work on clients running the kiosk</li>
+<li>Fixed bugs (shield rotation, merging power distribution, etc.)</li>
+<li>Added timeline to the default core layout as a slide-in panel.</li>
+<li>Started working on a card for docking control.</li>
+</ul>
+<p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/update-14/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-14/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 09 Sep 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 13 - Cut out the jibber-jabber]]></title><description><![CDATA[<ul>
+<li>Completed the instant messaging system, including messages to groups, such as security, damage, and medical.</li>
+<li>Refactored the bundler system to no longer use Electron. This fixes a lot of problems, and the negative impact is minimal. Instead of running a window, it starts a terminal session. That&#39;s about it.</li>
+<li>Added a system for adding notifications to widgets, in this case for messaging.</li>
+<li>Implemented auto-login for stations</li>
+<li>Started working on a Army Contacts timeline macro</li>
+</ul>
+<p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/update-13/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-13/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 02 Sep 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 12 - Tests, tests, and more tests]]></title><description><![CDATA[<ul>
+<li>Ran a test flight on August 19 and collected bugs. This week I fixed all the bugs. The list of bugs is <a href="https://github.com/Thorium-Sim/thorium/issues/214">here</a></li>
+<li>Implemented a &#39;Blackout&#39; station, for computer screens that you want to be blacked out</li>
+<li>Started working on the instant messaging system</li>
+</ul>
+<p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/update-12/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-12/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 26 Aug 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 11 - We got 100 problems, but issue tracking ain't one of them]]></title><description><![CDATA[<ul>
+<li>Made it so Thorium can be bundled with assets. This will make it easier to distribute Thorium to donors.</li>
+<li>Added training mode! Training mode is shown on single pages at a time. When you start training mode, you see an overlay explaining how different parts of the screen work. Current, Thorium only has training mode for the engine control screen, but more traning is being written and will be released as time goes on.</li>
+<li>Various bug and layout fixes</li>
+<li>Added the issue tracker back to the Main screen and to the core, so Flight Directors can file issues directly to the Thorium repository</li>
+<li>Added the contributors to the bottom of the repository. <a href="https://github.com/Thorium-Sim/thorium#contributors">Check it out!</a> Without these contributors, Thorium would never have gotten to where it is today. If you have contributed in any way and haven&#39;t been recognized, <a href="https://github.com/Thorium-Sim/thorium/issues/new">let me know</a>. And if you are interested in contributing, get in touch! There is a lot to do that doesn&#39;t just involve code.</li>
+<li>Changed the targeting grid to use DOM instead of Canvas. This makes it easier to use any kind of image on the targeting grid, same as with the sensors.</li>
+<li>Reworked the timeline system. There is a new Core module for the timeline that allows you to preview the timeline and execute timeline steps. Also, timeline step actions have to be pre-defined as components before they can be configured. Currently, only Sensor Presets have been defined in this way, but more are coming.</li>
+<li>Improved the asset system to allow for mass-upload of assets.</li>
+<li>Improved loading of the core layout. It now selects the simulator if there is only one on a flight, or it makes it more obvious for the flight director to select their simulator.</li>
+</ul>
+<p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/update-11/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-11/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 19 Aug 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 10 - I'm Free!]]></title><description><![CDATA[<h1 id="thorium-is-now-open-source-">Thorium is now Open Source!</h1>
 <p>That&#39;s right. Everything in Thorium is now Libre, which means you can do whatever you want with it. Make your own controls, contribute back, run your own simulator - the sky is the limits. Actually, the sky is no longer the limits, since you have your own starship!</p>
 <p>Thorium now supports a donation model. By becoming a donor, you get access to a drop-in built version of Thorium. <a href="https://thoriumsim.com/download/">Consider becoming a donor.</a></p>
 <p>As far as upates go:</p>

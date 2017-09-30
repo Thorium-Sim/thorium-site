@@ -5,6 +5,7 @@ import Download from "async!./../routes/download";
 import Post from "./post";
 import posts from "./../posts";
 import Front from "async!./front";
+import Prerelease from "async!./prerelease";
 
 // import Main from "async!./main";
 // import Sidebar from "async!./sidebar";
@@ -27,6 +28,7 @@ export default () => {
         <Front path="/" />
         <Posts path="/posts" />
         <Download path="/download" />
+        <Prerelease path="/prerelease" />
         {posts.map(p => <Post {...p} path={`/posts${p.path}`} />)}
       </Router>
     </div>

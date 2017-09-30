@@ -225,6 +225,10 @@ export default class Front extends Component {
             special kiosk application for locking the the computer to only
             Thorium, and priority in feature requests.
           </p>
+          <h3>Current Donors:</h3>
+          <ul>
+            <li>Thomas Delclite <span role="img" aria-label="Belgium">🇧🇪</span></li>
+          </ul>
           <p>
             Interested in contributing? Consider{" "}
             <Link href="/download">Donating</Link>.
