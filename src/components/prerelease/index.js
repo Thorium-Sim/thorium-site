@@ -38,9 +38,9 @@ export default class Prerelease extends Component {
           <h1>Prerelease Builds:</h1>
           <ul>
             <li>Alpha 17 <ul>
-              <li><a href="https://s3.amazonaws.com/thoriumsim/thorium-server-macos-a17.zip">macOS</a></li>
-              <li><a href="https://s3.amazonaws.com/thoriumsim/thorium-server-win.exe-a17.zip">Windows</a> - Note: There is a known issue with the Windows build. You must create a folder called {`{1}`} in the <code>\AppData\Local</code> folder.</li>
-              <li><a href="https://s3.amazonaws.com/thoriumsim/thorium-server-linux-a17.zip">Linux</a></li>
+              <li><a href="https://s3.amazonaws.com/thoriumsim/thorium-server-macos-a18.zip">macOS</a></li>
+              <li><a href="https://s3.amazonaws.com/thoriumsim/thorium-server-win.exe-a18.zip">Windows</a> - Note: There is a known issue with the Windows build. You must create a folder called {`{1}`} in the <code>\AppData\Local</code> folder.</li>
+              <li><a href="https://s3.amazonaws.com/thoriumsim/thorium-server-linux-a18.zip">Linux</a></li>
               <li><a href="https://s3.amazonaws.com/thoriumsim/damageReports.zip">Damage Reports</a></li>
               </ul></li>
           </ul>
