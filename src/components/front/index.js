@@ -69,7 +69,10 @@ var cardList = [
   },
   {
     station: "Command",
-    cards: [{ name: "Alert Condition", image: "Alert Condition.jpg" }, { name: "Self Destruct", image: "Self Destruct.jpg" }]
+    cards: [
+      { name: "Alert Condition", image: "Alert Condition.jpg" },
+      { name: "Self Destruct", image: "Self Destruct.jpg" }
+    ]
   }
 ];
 
@@ -112,7 +115,13 @@ export default class Front extends Component {
               About
             </a>
           </div>
-          <div style={{display: 'flex', justifyContent:'center', flexWrap:'wrap'}}>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              flexWrap: "wrap"
+            }}
+          >
             <Link
               className={`${style.button} ${style.donate}`}
               href="/download/"
@@ -129,6 +138,31 @@ export default class Front extends Component {
         </div>
         <section id="about" className={style.section}>
           <h2>A revolution in simulator controls</h2>
+          <p>
+            Thorium is starship bridge simulation software. With a crew manning
+            each of the stations and a Flight Director to guide you, Thorium
+            lets you experience your own space EdVentures on your own device.
+          </p>
+          <p>
+            Typically mission with Thorium are run by experienced Flight
+            Directors who play the roles of the main computer, chief engineer of
+            the ship, and all the aliens you encounter. They also run the
+            lighting, sound effects, music, and video. Finally, they use a core
+            station to monitor and react to the actions of the crew.
+          </p>
+          <p>
+            With a skilled flight director and a willing crew, you'll soon be
+            soaring through the stars, negotiating with aliens, battling
+            pirates, and exploring the deepest wonders of the cosmos.
+          </p>
+          <p>
+            <em>
+              <strong>
+                A more complete user guide is currently being written and will
+                be available soon.
+              </strong>
+            </em>
+          </p>
           <div className={style.featureBlock}>
             <div>
               <h3>Mission Timelines</h3>
@@ -192,28 +226,28 @@ export default class Front extends Component {
             regularly to fit whatever needs you might have.
           </p>
           <div className={style.stations}>
-            {cardList.map(s =>
+            {cardList.map(s => (
               <div className={style.station}>
-                <h3>
-                  {s.station}
-                </h3>
-                {s.cards.map(c =>
+                <h3>{s.station}</h3>
+                {s.cards.map(c => (
                   <p key={c.name}>
-                    {c.image
-                      ? <a
-                          href="#"
-                          onClick={evt => {
-                            evt.preventDefault();
-                            this.setState({ station: c });
-                          }}
-                        >
-                          {c.name}
-                        </a>
-                      : c.name}
+                    {c.image ? (
+                      <a
+                        href="#"
+                        onClick={evt => {
+                          evt.preventDefault();
+                          this.setState({ station: c });
+                        }}
+                      >
+                        {c.name}
+                      </a>
+                    ) : (
+                      c.name
+                    )}
                   </p>
-                )}
+                ))}
               </div>
-            )}
+            ))}
           </div>
         </section>
         <section className={style.section}>
@@ -227,21 +261,27 @@ export default class Front extends Component {
           </p>
           <h3>Current Donors:</h3>
           <ul>
-            <li>Thomas Delclite <span role="img" aria-label="Belgium">🇧🇪</span></li>
+            <li>
+              Thomas Delclite{" "}
+              <span role="img" aria-label="Belgium">
+                🇧🇪
+              </span>
+            </li>
           </ul>
           <p>
             Interested in contributing? Consider{" "}
             <Link href="/download">Donating</Link>.
           </p>
         </section>
-        {this.state.station &&
+        {this.state.station && (
           <section className={style.stationOverlay} onClick={this.closeStation}>
             <img
               className={style.stationImage}
               draggable={false}
               src={`/assets/screenshots/${this.state.station.image}`}
             />
-          </section>}
+          </section>
+        )}
         <Footer />
       </div>
     );

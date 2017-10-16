@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[R. Alex Anderson]]></title><description><![CDATA[It is what it is]]></description><link>https://ralexanderson.com</link><generator>RSS for Node</generator><lastBuildDate>Sat, 30 Sep 2017 20:53:36 GMT</lastBuildDate><atom:link href="https://ralexanderson.com/assets/feed.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[2017 R. Alex Anderson]]></copyright><language><![CDATA[en]]></language><webMaster><![CDATA[R. Alex Anderson]]></webMaster><item><title><![CDATA[Update 17 - Look out the window! 🌅]]></title><description><![CDATA[<ul>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[R. Alex Anderson]]></title><description><![CDATA[It is what it is]]></description><link>https://ralexanderson.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 16 Oct 2017 16:41:12 GMT</lastBuildDate><atom:link href="https://ralexanderson.com/assets/feed.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[2017 R. Alex Anderson]]></copyright><language><![CDATA[en]]></language><webMaster><![CDATA[R. Alex Anderson]]></webMaster><item><title><![CDATA[Update 19 - Training Wheels 🚲]]></title><description><![CDATA[<p>I&#39;m on vacation this weekend, and won&#39;t be getting much done, so here&#39;s the summary of the past few days:</p>
+<ul>
+<li>Did more work on the junior controls. Added the following cards:<ul>
+<li>Ops, with transporters and tractor beam,</li>
+<li>Sensors,</li>
+<li>Communications</li>
+<li>Flight, with engines, thrusters, and navigation</li>
+</ul>
+</li>
+<li>Added a core for junior controls</li>
+<li>Added a layout for junior controls</li>
+</ul>
+<p>Don&#39;t forget, as a donor you get access to the latest builds of Thorium. <a href="/download">Donate Today!</a></p>
+<p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/update-19/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-19/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Thu, 12 Oct 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 18 - Self-driving Viewscreen 📺]]></title><description><![CDATA[<ul>
+<li>Added more viewscreens<ul>
+<li>Planetary Scan</li>
+<li>Shield Monitoring</li>
+<li>Course Calculation</li>
+<li>Ship Views</li>
+<li>Stealth Viewscreen</li>
+<li>Communications</li>
+<li>Stars</li>
+</ul>
+</li>
+<li>Made it so the viewscreen could auto-switch based on the current state of the simulator</li>
+<li>Added unsubscriptions for all of the cards and cores</li>
+<li>Began work on Junior Controls. Added stubs for six cards:<ul>
+<li>Operations</li>
+<li>Communications</li>
+<li>Flight</li>
+<li>Tactical</li>
+<li>Sensors</li>
+<li>Engineer</li>
+</ul>
+</li>
+</ul>
+<p>Don&#39;t forget, as a donor you get access to the latest builds of Thorium. <a href="/download">Donate Today!</a></p>
+<p>That&#39;s it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+]]></description><link>https://ralexanderson.com/posts/update-18/</link><guid isPermaLink="true">https://ralexanderson.com/posts/update-18/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 07 Oct 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[Update 17 - Look out the window! 🌅]]></title><description><![CDATA[<ul>
 <li>Refactored the subscription system to hopefully handle multiple clients better</li>
 <li>Added the ability to export and import missions and their macros</li>
 <li>Made various bug fixes, such as sorting the deck and room dropdowns, making widgets more prominent, and adding instructions for targeting.</li>
@@ -254,30 +295,4 @@
 </ul>
 <p>There is a lot more to come. Expect weekly updates to this blog with the current status of Thorium, and file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>.</p>
 <p>Alex</p>
-]]></description><link>https://ralexanderson.com/posts/one-year/</link><guid isPermaLink="true">https://ralexanderson.com/posts/one-year/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 03 Jun 2017 06:00:00 GMT</pubDate></item><item><title><![CDATA[The Birth of Thorium]]></title><description><![CDATA[<figure>
-  <img src="/assets/posts/banner.png" alt="Banner" />
-</figure>
-
-<p>Thorium as a project began in June of 2016. After the partial failure of <a href="https://github.com/infinitedg/flint">Flint</a>, I wanted to develop a set of controls that I could be proud of. Flint had a pie-in-the-sky vision of what was possible. However, in the day-to-day development, that vision didn&#39;t translate well. Ultimately, due to lack of focus and poor developer experience, Flint fell by the wayside.</p>
-<p>After a few months of tinkering <a href="https://github.com/alexanderson1993/website-class">with</a> <a href="https://github.com/alexanderson1993/assassin">other</a> <a href="https://github.com/alexanderson1993/crowdfund">projects</a>, and with the encouragement of my brother, I decided the time finally came to start working on the next version of starship simulator controls. This version wouldn&#39;t reach too far... at first. Instead, it would build a platform for developing modular, future-proof controls with the latest web technologies. </p>
-<p>Since then, I&#39;ve been developing Thorium, with a goal to keep momentum by writing code at least once every day. This has been while I&#39;ve been employed part time and attending school full time. (Also, I started dating, got engaged, and got married all while Thorium has been under development).</p>
-<p>Keep following this blog for more details about where Thorium is now and where it is going. I hope you like what you see. Just know that the best is yet to come.</p>
-<p>Alex</p>
-<h3 id="technical-details">Technical Details</h3>
-<p>I was able to leverage what I learned from Flint to propel my development of Thorium. During the first few months of development, I had to decide several things:</p>
-<ul>
-<li>How should data be stored?</li>
-<li>How should state be managed between the client and the server?</li>
-<li>How should data be rendered on the client?</li>
-<li>Should I build it for one simulator, or for many simulators?</li>
-</ul>
-<p>Using web technologies was a no-brainer. The velocity and robustness of web development tools is staggering and jumping aboard was obvious. However, which of those tools to use was carefully considered. After playing around with Elixir and the Phoenix framework, I decided that I would write the server in Node.js. While Elixir would provide significant improvements to speed with concurrent processing and the ability to horizontally scale servers, the use case of simulators doesn&#39;t necessarily need the ability to process a million requests a second. Node.js gives familiarity and also convenience as the front-end and back-end are written with the same language.</p>
-<p>The front-end was created with React. The community support is unbeatable and the modular nature makes it possible to keep screens and controls separate while importing when necessary.</p>
-<p>GraphQL was a late addition to the mix, but a welcome one. It provides the simplest way of sending data to and from the client and server. With its self-documenting API, it&#39;s really easy to see all of the data you can get and send both ways, simplifying the development process substantially. When they released support for subscriptions, I was sold and jumped all in.</p>
-<p>The final piece was event sourcing. This is the idea that instead of storing the current state of the simulator, you store every event which brought the simulator to its current state. This has a few benefits:</p>
-<ul>
-<li>A rich stream of data allowing you to see exactly what happened at what point during the mission, which could be useful for analytics.</li>
-<li>The ability to rewind events to a point, effectively allowing you to rewind the experience by an arbitrary amount.</li>
-<li>A central event store can send and receive events from multiple servers, making it possible to expand the controls horizontally or though a mircoservice architecture. </li>
-</ul>
-]]></description><link>https://ralexanderson.com/posts/hello-word/</link><guid isPermaLink="true">https://ralexanderson.com/posts/hello-word/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Thu, 01 Jun 2017 06:00:00 GMT</pubDate></item></channel></rss>
+]]></description><link>https://ralexanderson.com/posts/one-year/</link><guid isPermaLink="true">https://ralexanderson.com/posts/one-year/</guid><dc:creator><![CDATA[Alex Anderson]]></dc:creator><pubDate>Sat, 03 Jun 2017 06:00:00 GMT</pubDate></item></channel></rss>
