@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "if-env NODE_ENV=production && yarnpkg -s serve || yarnpkg -s dev",
-    "build": "preact build --template ./src/index.html && cp ./build/index.html ./build/200.html",
+    "build": "preact build --template ./src/index.html && cp ./build/index.html ./build/200.html && mkdir ./build/.well_known && cp ./src/assets/.well_known/apple-developer-merchantid-domain-association ./build/.well_known/apple-developer-merchantid-domain-association",
     "serve": "preact build && preact serve",
     "dev": "preact watch",
     "test": "eslint src && preact test"
