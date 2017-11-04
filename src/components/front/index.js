@@ -267,6 +267,12 @@ export default class Front extends Component {
                 🇧🇪
               </span>
             </li>
+            <li>
+              Chuck Smith{" "}
+              <span role="img" aria-label="United States">
+                🇺🇸
+              </span>
+            </li>
           </ul>
           <p>
             Interested in contributing? Consider{" "}
